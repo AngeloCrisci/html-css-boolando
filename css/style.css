@@ -16,6 +16,7 @@ body {
 
 img {
     display: block;
+    max-width: 100%;
 }
 
 
@@ -28,13 +29,15 @@ img {
 
 .row {
     display: flex;
-    justify-content: center;
+    gap: 10px;
 
 }
 
 .col {
-    flex-basis: calc(100% / 3);
-    height: 200px;
+    flex-basis: calc(100% / 3 );
+    min-height: 200px;
+    position: relative;
+
 }
 
 
@@ -47,3 +50,44 @@ img {
     right: 0;
     left: 0;
 }
+
+.red {
+    color: red;
+}
+
+.bar {
+    text-decoration: line-through;
+}
+
+.favourite {
+    position: absolute;
+    top: 5px;
+    right: 0;
+    background-color: whitesmoke;
+    color: black;
+    padding: 5px 8px;
+    font-size: 22px;
+}
+
+.discount {
+    position: absolute;
+    left: 0;
+    bottom: 100px;
+    background-color: red;
+    color: whitesmoke;
+    padding: 5px 13px;
+    font-size: 15px;
+}
+
+.sustain {
+    position: absolute;
+    left: 70px;
+    bottom: 100px;
+    background-color: green;
+    color: whitesmoke;
+    padding: 5px 13px;
+    font-size: 15px;
+}
+
+
+
