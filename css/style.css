@@ -19,6 +19,10 @@ img {
     max-width: 100%;
 }
 
+* > .col-foot {
+    color: whitesmoke;
+}
+
 
 /* Utils */
 .container {
@@ -41,6 +45,16 @@ img {
     justify-content: center;
     margin-bottom: 20px;
 
+}
+
+.footer {
+    height: 80px;
+    background-color: black;
+    display: flex;
+}
+
+.col-foot {
+    flex-basis: calc(100% / 2);
 }
 
 
