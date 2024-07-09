@@ -20,10 +20,15 @@ img {
 
 
 /* Utils */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
 
 .row {
     display: flex;
-    height: 200px;
+    justify-content: center;
 
 }
 
@@ -32,10 +37,7 @@ img {
     height: 200px;
 }
 
-.container {
-    max-width: 900px;
-    margin: 0 auto;
-}
+
 
 .top-header {
     height: 80px;
