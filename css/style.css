@@ -30,13 +30,16 @@ img {
 .row {
     display: flex;
     gap: 10px;
+    flex-wrap: wrap;
 
 }
 
 .col {
-    flex-basis: calc(100% / 3 );
+    flex-basis: calc(100% / 3 - 20px / 3 );
     min-height: 200px;
     position: relative;
+    justify-content: center;
+    margin-bottom: 20px;
 
 }
 
@@ -87,6 +90,10 @@ img {
     color: whitesmoke;
     padding: 5px 13px;
     font-size: 15px;
+}
+
+.card:hover {
+    cursor: pointer;
 }
 
 
