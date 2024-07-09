@@ -52,6 +52,7 @@ img {
     top: 0;
     right: 0;
     left: 0;
+    z-index: 1;
 }
 
 .red {
@@ -96,26 +97,14 @@ img {
     cursor: pointer;
 }
 
-.hover-one:hover img {
-    content: url(../img/1b.webp);
+.hidden {
+    display: none;
 }
 
-.hover-two:hover img {
-    content: url(../img/2b.webp);
+.card:hover .hidden {
+    display: block;
 }
 
-.hover-three:hover img {
-    content: url(../img/3b.webp);
-}
-
-.hover-four:hover img {
-    content: url(../img/4b.webp);
-}
-
-.hover-five:hover img {
-    content: url(../img/5b.webp);
-}
-
-.hover-six:hover img {
-    content: url(../img/6b.webp);
+.card:hover .surface {
+    display: none;
 }
